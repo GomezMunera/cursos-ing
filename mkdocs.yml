@@ -1,6 +1,6 @@
 site_name: Cursos
 theme: flatly
-repo_url: 'https://github.com/GomezMunera/articulocorum'
+repo_url: 'https://github.com/GomezMunera/cursos-ing.git'
 site_description: 'A simple desc here.'
 nav:
 - 'Cálculo I': 'index.md'
