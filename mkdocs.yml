@@ -1,0 +1,18 @@
+site_name: Cursos
+theme: flatly
+repo_url: 'https://github.com/GomezMunera/articulocorum'
+site_description: 'A simple desc here.'
+nav:
+- 'Cálculo I': 'index.md'
+- 'about.md'
+- Guía:
+    - 'Escribiendo': 'guia/Escribiendo.md'
+    - 'Estilo': 'guia/estilo.md'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/GomezMunera'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/johnanderson.munera'
+    - type: 'linkedin'
+      link: 'www.linkedin.com/in/jagomezmunera'
