@@ -1,7 +1,7 @@
 site_name: Cursos
 theme: flatly
-repo_url: 'https://github.com/GomezMunera/cursos-ing.git'
-site_description: 'A simple desc here.'
+repo_url: 'https://github.com/GomezMunera/cursos-ing'
+site_description: 'Cursos dictados en la facultad de ingeniería de la universidad de Antioquia'
 nav:
 - 'Cálculo I': 'index.md'
 - 'about.md'
