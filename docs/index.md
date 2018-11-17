@@ -1,27 +1,25 @@
-# Inicio
+---
+title: "index"
+author: "John A. G. M"
+date: "16 de noviembre de 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
 
-En este lugar encontraras toda la información relativa acerca de los cursos dictados en la Universidad de Antioquia por el Dr. John Anderson Gómez Múnera, para una mayor información puedes visitar la página de [github](https://github.com/GomezMunera/cursos-ing) de los cursos.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-## Robótica Industrial
+## R Markdown
 
-Curso Eléctivo del Departamento de Electrónica de la Universidad de Antioquia para dictar en el semestre 2019-1
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-## Laboratorio de Sistemas de Control Continuo
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-Curso Obligatorio del Departamento de Electrónica de la Universidad de Antioquia dictadó en el semestre 2018-1
-
-## Algebra Lineal
-
-Curso Obligatorio de la Facultad de Ingeniería de la Universidad de Antioquia, en este caso dictado para el programa de Ingeniería Agropecuaría seccional Sonsón para dictar en el semestre 2019-1
-
-## Cálculo I (Diferencial)
-
-Curso Obligatorio de la Facultad de Ingeniería de la Universidad de Antioquia, en este caso dictado para el programa de Ingeniería Agropecuaría seccional Sonsón para dictar en el semestre 2019-1
-
-## Cálculo III (Multivariable)
-
-Curso Obligatorio de la Facultad de Ingeniería de la Universidad de Antioquia, en este caso dictado para el programa de Ingeniería Agropecuaría seccional Sonsón dictado en el semestre 2018-1
-
+```{r cars}
+summary(cars)
+```
 
 ## Pruebas de ecuaciones
 
@@ -30,15 +28,18 @@ horizonte finito con estados finales libres de la forma
 
 $x_{i}$
 
-$\left(\frac{1}{n} \right) ^ 2 $
+\begin{equation}
+ \left(\frac{1}{n} \right)^2 
+\end{equation}
 
 sujeto a la siguiente restricción dinámica 
+\begin{equation}
+\dot{x}(t)=f(x(t),u(t)),\text{  }x(0)=x_{0}, 
+\end{equation}
 
-$\dot{x}(t)=f(x(t),u(t)),\text{ \ }x(0)=x_{0}, $
-
-
-	$$\sum_{i=1}^n X_i$$
-
+\begin{equation}
+	\sum_{i=1}^n X_i
+\end{equation}
 			$\sum_{i=1}^n X_i$
 			
 
@@ -54,3 +55,13 @@ La estructura **if** consiste en la palabra clave **if** seguida de una expresi�
 		// Bloque si la condición no se cumple
 	}
 
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

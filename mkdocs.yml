@@ -4,6 +4,7 @@ repo_url: 'https://github.com/GomezMunera/cursos-ing'
 site_description: 'Cursos dictados en la facultad de ingeniería de la universidad de Antioquia'
 nav:
 - 'Inicio': 'index.md'
+- 'Web': 'Welcome file.md'
 - Robótica Industrial:
     - 'Clases':
         - 'Clase 1': 'clases/clase1.md'
