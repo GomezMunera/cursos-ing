@@ -4,7 +4,6 @@ repo_url: 'https://github.com/GomezMunera/cursos-ing'
 site_description: 'Cursos dictados en la facultad de ingeniería de la universidad de Antioquia'
 nav:
 - 'Inicio': 'index.md'
-- 'Web': 'Welcome file.md'
 - Robótica Industrial:
     - 'Clases':
         - 'Clase 1': 'clases/clase1.md'
@@ -37,7 +36,48 @@ nav:
 - Guía:
     - 'Escribiendo': 'guia/Escribiendo.md'
     - 'Estilo': 'guia/estilo.md'
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    #- https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+    #- 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+    #- 'javascripts/extra.js'
+    #- 'javascripts/MathJax.js'
+
+# Extensions
+markdown_extensions:
+    - mdx_math
+    - admonition
+#    - codehilite:
+#        linenums: true
+    - footnotes
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    
 extra:
+  language: 'es'
+#  palette:
+#    primary: 'indigo'
+#    accent: 'indigo'
+#  font:
+#    text: 'Roboto'
+#    code: 'Roboto Mono'
   social:
     - type: 'github'
       link: 'https://github.com/GomezMunera'

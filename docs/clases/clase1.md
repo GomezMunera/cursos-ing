@@ -1,5 +1,14 @@
 # Clase 1
 
+## Antecedentes
+
+
+## Origen de la Robótica
+
+## Desarrollo de la Robótica
+
+## Manipulador Mecánico
+
 ## Introducción a la Robótica Industrial
 _italicas_ y __negritas__
 *italicas* y **negritas**
